@@ -1,0 +1,23 @@
+---
+name: mikegis
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pip
+  # Production dependencies defined here (as well as in requirements.txt)
+  - numpy>=1.21.0
+  - matplotlib
+  - xarray
+  - scipy
+  - dask
+  - netcdf4
+  - bottleneck
+  - jupyterlab
+  - geopandas
+  - descartes
+  - numba
+  - owslib
+  - pygeoapi
+  - pip:
+      - dataretrieval
