@@ -1,3 +1,3 @@
 # NLDAS2WB
 
-`conda env create -n mikegis.yml`
+`conda env create -f mikegis.yml`
